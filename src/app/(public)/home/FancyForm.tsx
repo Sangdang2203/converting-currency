@@ -3,7 +3,7 @@ import React from "react";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { currencyList } from "../libs/data";
+import { currencyList } from "../../libs/data";
 import { CloseOutlined } from "@mui/icons-material";
 import {
   Dialog,

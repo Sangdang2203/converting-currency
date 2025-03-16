@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import FancyFormComponent from "./(public)/FancyForm";
+import HomePage from "./(public)/home/page";
 
 export const metadata: Metadata = {
   title: "Exchange Currency",
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const Page = () => {
   return (
     <>
-      <FancyFormComponent />
+      <HomePage />
     </>
   );
 };
