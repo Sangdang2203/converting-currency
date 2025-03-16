@@ -1,9 +1,11 @@
-import FancyFormComponent from "@/problem2/FancyForm";
+import FancyFormComponent from "./(public)/FancyForm";
 
-export default function Home() {
+const Page = () => {
   return (
-    <div>
+    <>
       <FancyFormComponent />
-    </div>
+    </>
   );
-}
+};
+
+export default Page;
